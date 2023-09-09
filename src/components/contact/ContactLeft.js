@@ -19,7 +19,7 @@ const ContactLeft = () => {
         As a senior frontend developer, I excel in creating captivating user interfaces and experiences. My mastery of frontend technologies ensures polished and user-friendly web applications. I'm passionate about responsive design, performance optimization, and accessibility, crafting seamless digital experiences that leave a lasting impact.
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Phone: <span className="text-lightText">+254721707044</span>
+          Phone: <span className="text-lightText"><a href='+254721707044'>+254721707044</a></span>
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
           Email: <span className="text-lightText">abdiaziz.xakim@gmail.com</span>
@@ -28,16 +28,17 @@ const ContactLeft = () => {
       <div className="flex flex-col gap-4">
         <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
         <div className="flex gap-4">
-          <span className="bannerIcon">
+          <a href="https://www.facebook.com/Abdiaziz.xakim" target="_blank" rel="noopener noreferrer" className="bannerIcon">
             <FaFacebookF />
-          </span>
-          <span className="bannerIcon">
+          </a>
+          <a href="https://twitter.com/abdiazizsalan90?t=46HHN6ej4nhY5a1kl_3ObA&s=09" target="_blank" rel="noopener noreferrer" className="bannerIcon">
             <FaTwitter />
-          </span>
-          <span className="bannerIcon">
+          </a>
+          <a href="https://www.linkedin.com/in/abdiaziz-xakim/" target="_blank" rel="noopener noreferrer" className="bannerIcon">
             <FaLinkedinIn />
-          </span>
+          </a>
         </div>
+
       </div>
     </div>
   );
