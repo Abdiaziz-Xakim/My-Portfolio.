@@ -13,10 +13,10 @@ const ContactLeft = () => {
       <div className="flex flex-col gap-4">
         <h3 className="text-3xl font-bold text-white">Abdiaziz Mohamed</h3>
         <p className="text-lg font-normal text-gray-400">
-          Full stack develper
+          Frontend Developer
         </p>
         <p className="text-base text-gray-400 tracking-wide">
-        As a full-stack developer, I proficiently handle both frontend and backend development, crafting comprehensive and cohesive web applications.
+        As a senior frontend developer, I excel in creating captivating user interfaces and experiences. My mastery of frontend technologies ensures polished and user-friendly web applications. I'm passionate about responsive design, performance optimization, and accessibility, crafting seamless digital experiences that leave a lasting impact.
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
           Phone: <span className="text-lightText">+254721707044</span>
