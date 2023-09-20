@@ -13,12 +13,12 @@ const LeftBanner = () => {
   return (
     <div className="w-full lgl:w-1/2 flex flex-col gap-20">
       <div className="flex flex-col gap-5">
-        <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4>
-        <h1 class="text-6xl font-bold text-white">
+        <h4 className=" text-black font-normal">WELCOME TO MY WORLD</h4>
+        <h1 class="text-6xl font-bold text-black">
           Hi, I'm <span class="text-designColor capitalize">Abdiaziz Mohamed</span>
         </h1>
 
-        <h2 className="text-4xl font-bold text-white">
+        <h2 className="text-4xl font-bold text-black">
           a <span>{text}</span>
           <Cursor
             cursorBlinking="false"
@@ -26,7 +26,7 @@ const LeftBanner = () => {
             cursorColor="#ff014f"
           />
         </h2>
-        <p className="text-base font-bodyFont leading-6 tracking-wide">
+        <p className="text-black font-bodyFont leading-6 tracking-wide">
         I specialize in crafting visually stunning and user-friendly web experiences. With a focus on responsive design, performance optimization, and accessibility, I'm dedicated to creating memorable online interactions. Explore my projects to see how I bring creativity and functionality to the digital world.
         </p>
       </div>
